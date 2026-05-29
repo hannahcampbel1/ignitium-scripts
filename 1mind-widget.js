@@ -450,7 +450,7 @@ function initializeScript() {
     }
     attributes['onemind_omusertoken'] = tokenValue
 
-    let url = 'https://launcher.prd-b.1mind.com/v1/launch/w9hv2vz6fn/ai-start?'
+    let url = 'https://launcher.prd-b.1mind.com/v1/launch/grtvnwpzcw/ai-start?'
     if (attributes['onemind_flow']) url += 'flow=' + encodeURIComponent(attributes['onemind_flow']) + '&'
     for (const key in attributes) {
       if (Object.prototype.hasOwnProperty.call(attributes, key)) {
@@ -487,7 +487,7 @@ function initializeScript() {
       var sessionId = sessionEl ? sessionEl.dataset.sessionId : null;
       if (!sessionId) return;
 
-      var preprocessUrl = 'https://launcher.prd-b.1mind.com/v1/launch/w9hv2vz6fn/ai-preprocess?';
+      var preprocessUrl = 'https://launcher.prd-b.1mind.com/v1/launch/grtvnwpzcw/ai-preprocess?';
       if (attributes['onemind_flow']) preprocessUrl += 'flow=' + encodeURIComponent(attributes['onemind_flow']) + '&';
       for (var ppKey in attributes) {
         if (Object.prototype.hasOwnProperty.call(attributes, ppKey)) {
